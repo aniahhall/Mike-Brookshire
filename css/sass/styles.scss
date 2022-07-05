@@ -1,7 +1,261 @@
 $sm: 567px;
-$md:768px;
-$lg:992px;
-$xl:1200px;
-$spart:'Spartan', sans-serif;
-$chair:'Charis SIL', serif;
-$oxygen:'Oxygen', sans-serif;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$spartan: 'Spartan', sans-serif;
+$chair: 'Charis SIL', serif;
+$oxygen: 'Oxygen', sans-serif;
+$orange: #F6511D;
+$blue: #009DE0;
+$yellow: #FFB400;
+$dark: #0D2C54;
+
+#navhead {
+  font-family: $chair;
+  color: $orange;
+  font-size: 2em;
+  text-decoration: none;
+
+  @media (min-width:$lg) {
+    font-size: 3.5em;
+
+   }
+
+
+}
+.navhead {
+text-align: center;
+margin-top:2em;
+
+}
+
+main {
+  margin-top: 6em;
+}
+
+.main {
+  a {
+    color: white;
+    background-color: $orange;
+    padding: 0.5em 1em;
+    font-style: $chair;
+    font-weight: 700;
+    font-size: 1em;
+  }
+
+  a:hover {
+    background-color: white;
+    text-decoration: none;
+    border: solid $orange 0.02em;
+    color: $orange;
+  }
+
+  h1 {
+    color: $dark;
+    font-family: $oxygen;
+    font-size: 2em;
+    font-weight: 700;
+  }
+
+  h3 {
+    color: $blue;
+    font-family: $spartan;
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+  p{
+    font-family: $spartan;
+    line-height: 2em;
+  }
+}
+
+.yellow-back {
+  background-color: $yellow;
+  padding-top: 7em;
+  padding-bottom: 7em;
+
+  p {
+    font-family: $oxygen;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: white;
+  }
+
+  a {
+    font-family: $chair;
+    font-style: italic;
+    color: white;
+    font-size: 1em;
+  }
+  a:hover{
+    text-decoration: none;
+    color:white;
+    padding: .3em;
+    border:.21em solid white;
+  }
+}
+
+nav {
+  margin: auto;
+
+  a:hover {
+    color: $orange;
+    text-decoration: none;
+    border-bottom: 0.1em solid $orange;
+  }
+
+  ul {
+    margin: auto;
+    color: $orange;
+    text-decoration: none;
+
+    li {
+
+      padding: 0 0 1em 1em;
+      text-align: center;
+
+      a {
+        font-family: $oxygen;
+        font-weight: 700;
+        color: $orange;
+        font-size: .8em;
+
+      }
+    }
+
+
+  }
+
+
+button {
+  margin-left: auto;
+}
+}
+
+#navbarNav {
+  margin-left: auto;
+}
+
+.active {
+  border-bottom: 0.2em solid $orange;
+}
+
+figure {
+  border-bottom: 3em $blue solid;
+  padding: 0;
+}
+footer{
+  background-color: $blue;
+  text-align: center;
+  img{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    width: 6.5%;
+
+    @media(min-width:$md ){
+      width:4.5%;
+    }
+    @media(min-width:$lg ){
+      width:2.5%;
+    }
+}
+}
+// Conversation with trees
+
+.cwt-main{
+  h1{
+    font-family: $oxygen;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 2em;
+    color:$dark;
+
+    @media(min-width: $lg){
+    font-size: 1.4em;
+    }
+
+  }
+}
+.cwt-outer{
+
+
+
+  a{
+    color:$dark;
+    font-family: $oxygen;
+    font-weight: 700;
+    line-height: 2em;
+    font-size: .8em;
+    @media(min-width: $lg){
+      font-size:1em;}
+p{
+  border-left: $orange .6em solid;
+  margin-bottom: 1em;
+  padding-left:1em;
+}
+p:hover{
+  border-left: $blue .6em solid;
+}
+
+  }
+  a:hover{
+    text-decoration: none;
+    color: $dark;
+  }
+
+}
+.cwt-inner{
+  margin-left: 3em;
+
+li{
+  font-family:$spartan;
+  color:$dark;
+  font-weight: 400;
+  border-bottom: $yellow .1em solid;
+  margin-bottom:2em;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+
+  @media(min-width: $lg){
+    font-size:.9em;
+
+    }
+  }
+
+}
+
+// Abou Mike
+.am-main{
+  h1{
+  font-family: $oxygen;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 2em;
+  color:$dark;
+
+  @media(min-width: $lg){
+  font-size: 1.4em;
+  }
+
+
+}
+}
+#mike{
+  font-family: $oxygen;
+  font-weight:400;
+  color:$blue;
+  font-size: 1.2em;
+
+  @media(min-width: $lg){
+    font-size: 1.8em;
+  }
+
+}
+.am-para{
+  font-family: $spartan;
+  font-weight: 400;
+  font-size: 1em;
+  color: $dark;
+
+}
