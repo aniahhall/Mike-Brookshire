@@ -1,1 +1,249 @@
-#navhead{font-family:"Charis SIL",serif;color:#F6511D;font-size:2em;text-decoration:none}@media (min-width: 992px){#navhead{font-size:3.5em}}.navhead{text-align:center;margin-top:2em}main{margin-top:6em}.main a{color:white;background-color:#F6511D;padding:0.5em 1em;font-style:"Charis SIL",serif;font-weight:700;font-size:1em}.main a:hover{background-color:white;text-decoration:none;border:solid #F6511D 0.02em;color:#F6511D}.main h1{color:#0D2C54;font-family:"Oxygen",sans-serif;font-size:2em;font-weight:700}.main h3{color:#009DE0;font-family:"Spartan",sans-serif;font-weight:500;font-size:1.2em}.main p{font-family:"Spartan",sans-serif;line-height:2em}.yellow-back{background-color:#FFB400;padding-top:7em;padding-bottom:7em}.yellow-back p{font-family:"Oxygen",sans-serif;font-size:0.8em;font-weight:700;color:white}.yellow-back a{font-family:"Charis SIL",serif;font-style:italic;color:white;font-size:1em}.yellow-back a:hover{text-decoration:none;color:white;padding:.3em;border:.21em solid white}nav{margin:auto}nav a:hover{color:#F6511D;text-decoration:none;border-bottom:0.1em solid #F6511D}nav ul{margin:auto;color:#F6511D;text-decoration:none}nav ul li{padding:0 0 1em 1em;text-align:center}nav ul li a{font-family:"Oxygen",sans-serif;font-weight:700;color:#F6511D;font-size:.8em}nav button{margin-left:auto}#navbarNav{margin-left:auto}.active{border-bottom:0.2em solid #F6511D}figure{border-bottom:3em #009DE0 solid;padding:0}footer{background-color:#009DE0;text-align:center}footer img{padding-top:3em;padding-bottom:1em;width:6.5%}@media (min-width: 768px){footer img{width:4.5%}}@media (min-width: 992px){footer img{width:2.5%}}.cwt-main h1{font-family:"Oxygen",sans-serif;font-weight:700;font-size:1em;margin-bottom:2em;color:#0D2C54}@media (min-width: 992px){.cwt-main h1{font-size:1.4em}}.cwt-outer a{color:#0D2C54;font-family:"Oxygen",sans-serif;font-weight:700;line-height:2em;font-size:.8em}@media (min-width: 992px){.cwt-outer a{font-size:1em}}.cwt-outer a p{border-left:#F6511D 0.6em solid;margin-bottom:1em;padding-left:1em}.cwt-outer a p:hover{border-left:#009DE0 0.6em solid}.cwt-outer a:hover{text-decoration:none;color:#0D2C54}.cwt-inner{margin-left:3em}.cwt-inner li{font-family:"Spartan",sans-serif;color:#0D2C54;font-weight:400;border-bottom:#FFB400 0.1em solid;margin-bottom:2em;padding-bottom:2em;line-height:2em;font-size:.8em}@media (min-width: 992px){.cwt-inner li{font-size:.9em}}.am-main h1{font-family:"Oxygen",sans-serif;font-weight:700;font-size:1em;margin-bottom:2em;color:#0D2C54}@media (min-width: 992px){.am-main h1{font-size:1.4em}}#mike{font-family:"Oxygen",sans-serif;font-weight:400;color:#009DE0;font-size:1.2em}@media (min-width: 992px){#mike{font-size:1.8em}}.am-para{font-family:"Spartan",sans-serif;font-weight:400;font-size:1em;color:#0D2C54}
+#navhead {
+  font-family: "Charis SIL", serif;
+  color: #F6511D;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  #navhead {
+    font-size: 3.5em;
+  }
+}
+
+.navhead {
+  text-align: center;
+  margin-top: 2em;
+}
+
+main {
+  margin-top: 6em;
+}
+
+.main a {
+  color: white;
+  background-color: #F6511D;
+  padding: 0.5em 1em;
+  font-style: "Charis SIL", serif;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.main a:hover {
+  background-color: white;
+  text-decoration: none;
+  border: solid #F6511D 0.02em;
+  color: #F6511D;
+}
+
+.main h1 {
+  color: #0D2C54;
+  font-family: "Oxygen", sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.main h3 {
+  color: #009DE0;
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+.main p {
+  font-family: "Spartan", sans-serif;
+  line-height: 2em;
+}
+
+.yellow-back {
+  background-color: #FFB400;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+
+.yellow-back p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  color: white;
+}
+
+.yellow-back a {
+  font-family: "Charis SIL", serif;
+  font-style: italic;
+  color: white;
+  font-size: 1em;
+}
+
+.yellow-back a:hover {
+  text-decoration: none;
+  color: white;
+  padding: .3em;
+  border: .21em solid white;
+}
+
+nav {
+  margin: auto;
+}
+
+nav a:hover {
+  color: #F6511D;
+  text-decoration: none;
+  border-bottom: 0.1em solid #F6511D;
+}
+
+nav ul {
+  margin: auto;
+  color: #F6511D;
+  text-decoration: none;
+}
+
+nav ul li {
+  padding: 0 0 1em 1em;
+  text-align: center;
+}
+
+nav ul li a {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  color: #F6511D;
+  font-size: .8em;
+}
+
+nav button {
+  margin-left: auto;
+}
+
+#navbarNav {
+  margin-left: auto;
+}
+
+.active {
+  border-bottom: 0.2em solid #F6511D;
+}
+
+figure {
+  border-bottom: 3em #009DE0 solid;
+  padding: 0;
+}
+
+footer {
+  background-color: #009DE0;
+  text-align: center;
+}
+
+footer img {
+  padding-top: 3em;
+  padding-bottom: 1em;
+  width: 6.5%;
+}
+
+@media (min-width: 768px) {
+  footer img {
+    width: 4.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  footer img {
+    width: 2.5%;
+  }
+}
+
+.cwt-main h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 2em;
+  color: #0D2C54;
+}
+
+@media (min-width: 992px) {
+  .cwt-main h1 {
+    font-size: 1.4em;
+  }
+}
+
+.cwt-outer a {
+  color: #0D2C54;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  line-height: 2em;
+  font-size: .8em;
+}
+
+@media (min-width: 992px) {
+  .cwt-outer a {
+    font-size: 1em;
+  }
+}
+
+.cwt-outer a p {
+  border-left: #F6511D 0.6em solid;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+.cwt-outer a p:hover {
+  border-left: #009DE0 0.6em solid;
+}
+
+.cwt-outer a:hover {
+  text-decoration: none;
+  color: #0D2C54;
+}
+
+.cwt-inner {
+  margin-left: 3em;
+}
+
+.cwt-inner li {
+  font-family: "Spartan", sans-serif;
+  color: #0D2C54;
+  font-weight: 400;
+  border-bottom: #FFB400 0.1em solid;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+}
+
+@media (min-width: 992px) {
+  .cwt-inner li {
+    font-size: .9em;
+  }
+}
+
+.am-main h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 2em;
+  color: #0D2C54;
+}
+
+@media (min-width: 992px) {
+  .am-main h1 {
+    font-size: 1.4em;
+  }
+}
+
+#mike {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400;
+  color: #009DE0;
+  font-size: 1.2em;
+}
+
+@media (min-width: 992px) {
+  #mike {
+    font-size: 1.8em;
+  }
+}
+
+.am-para {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #0D2C54;
+}
