@@ -10,6 +10,12 @@ $blue: #009DE0;
 $yellow: #FFB400;
 $dark: #0D2C54;
 
+
+
+.rotateimg180:active {
+  transform: rotate(90deg);
+}
+
 #navhead {
   font-family: $chair;
   color: $orange;
@@ -26,6 +32,19 @@ $dark: #0D2C54;
 .navhead {
 text-align: center;
 margin-top:2em;
+
+
+}
+#img-nav{
+  width:3em;
+  margin:auto;
+  margin-bottom: 2em;
+}
+
+
+hr{
+  color:$orange;
+  background-color:$orange;
 
 }
 
@@ -111,8 +130,11 @@ nav {
 
     li {
 
-      padding: 0 0 1em 1em;
+      padding: 0 0 1em 0em;
       text-align: center;
+      @media(min-width: $lg){
+        padding: 0 0 1em 1em;
+      }
 
       a {
         font-family: $oxygen;
@@ -128,7 +150,7 @@ nav {
 
 
 button {
-  margin-left: auto;
+  margin: auto;
 }
 }
 
@@ -137,12 +159,32 @@ button {
 }
 
 .active {
-  border-bottom: 0.2em solid $orange;
+  border-bottom: 0.15em solid $orange;
 }
 
 figure {
   border-bottom: 3em $blue solid;
   padding: 0;
+}
+
+.home-reviews{
+    li{
+    font-family:$spartan;
+    color:$dark;
+    font-weight: 400;
+    padding-bottom: 2em;
+    line-height: 2em;
+    font-size: .8em;
+  }
+  h6{
+    font-family: $oxygen;
+    font-weight:700;
+    font-size: 1em;
+    color:$blue;
+  text-align: right;
+  margin-right:2.5em;
+  }
+
 }
 footer{
   background-color: $blue;
@@ -160,6 +202,8 @@ footer{
     }
 }
 }
+
+
 // Conversation with trees
 
 .cwt-main{
@@ -196,6 +240,7 @@ p{
 p:hover{
   border-left: $blue .6em solid;
 }
+
 
   }
   a:hover{
@@ -257,5 +302,101 @@ li{
   font-weight: 400;
   font-size: 1em;
   color: $dark;
+
+}
+
+// Reaviews
+
+.reviews-main{
+ h1{
+    font-family: $oxygen;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 2em;
+    color:$dark;
+
+    @media(min-width: $lg){
+    font-size: 1.4em;
+    }
+
+
+  }
+}
+.reviews{
+  li{
+  font-family:$spartan;
+  color:$dark;
+  font-weight: 400;
+  border-bottom: $yellow .1em solid;
+  margin-bottom:2em;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+}
+h6{
+  font-family: $oxygen;
+  font-weight:700;
+  font-size: 1em;
+  color:$blue;
+text-align: right;
+margin-right:2.5em;
+}
+}
+
+
+
+// Events
+
+
+.events-main{
+ h1{
+    font-family: $oxygen;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 2em;
+    color:$dark;
+
+    @media(min-width: $lg){
+    font-size: 1.4em;
+    }
+
+
+  }
+}
+.events{
+
+  li{
+  font-family:$spartan;
+  color:$dark;
+  font-weight: 400;
+  margin-bottom:2em;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+  border-bottom: $yellow .1em solid;
+  margin-left: 1em;
+
+}
+h6{
+font-family:$spartan;
+font-weight: 500;
+font-size: 1em;
+color:$orange;
+
+}
+h2{
+  font-size: 1.5em;
+  color:$dark;
+  font-family: $spartan;
+  font-weight: 500;
+}
+h3{
+  color:$blue;
+  font-family: $oxygen;
+  font-weight:700;
+  font-size: 1em;
+  color:$blue;
+}
+
 
 }

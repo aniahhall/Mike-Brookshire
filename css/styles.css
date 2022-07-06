@@ -1,3 +1,7 @@
+.rotateimg180:active {
+  transform: rotate(90deg);
+}
+
 #navhead {
   font-family: "Charis SIL", serif;
   color: #F6511D;
@@ -14,6 +18,17 @@
 .navhead {
   text-align: center;
   margin-top: 2em;
+}
+
+#img-nav {
+  width: 3em;
+  margin: auto;
+  margin-bottom: 2em;
+}
+
+hr {
+  color: #F6511D;
+  background-color: #F6511D;
 }
 
 main {
@@ -99,8 +114,14 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0 0 1em 1em;
+  padding: 0 0 1em 0em;
   text-align: center;
+}
+
+@media (min-width: 992px) {
+  nav ul li {
+    padding: 0 0 1em 1em;
+  }
 }
 
 nav ul li a {
@@ -111,7 +132,7 @@ nav ul li a {
 }
 
 nav button {
-  margin-left: auto;
+  margin: auto;
 }
 
 #navbarNav {
@@ -119,12 +140,30 @@ nav button {
 }
 
 .active {
-  border-bottom: 0.2em solid #F6511D;
+  border-bottom: 0.15em solid #F6511D;
 }
 
 figure {
   border-bottom: 3em #009DE0 solid;
   padding: 0;
+}
+
+.home-reviews li {
+  font-family: "Spartan", sans-serif;
+  color: #0D2C54;
+  font-weight: 400;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+}
+
+.home-reviews h6 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #009DE0;
+  text-align: right;
+  margin-right: 2.5em;
 }
 
 footer {
@@ -246,4 +285,86 @@ footer img {
   font-weight: 400;
   font-size: 1em;
   color: #0D2C54;
+}
+
+.reviews-main h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 2em;
+  color: #0D2C54;
+}
+
+@media (min-width: 992px) {
+  .reviews-main h1 {
+    font-size: 1.4em;
+  }
+}
+
+.reviews li {
+  font-family: "Spartan", sans-serif;
+  color: #0D2C54;
+  font-weight: 400;
+  border-bottom: #FFB400 0.1em solid;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+}
+
+.reviews h6 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #009DE0;
+  text-align: right;
+  margin-right: 2.5em;
+}
+
+.events-main h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 2em;
+  color: #0D2C54;
+}
+
+@media (min-width: 992px) {
+  .events-main h1 {
+    font-size: 1.4em;
+  }
+}
+
+.events li {
+  font-family: "Spartan", sans-serif;
+  color: #0D2C54;
+  font-weight: 400;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  line-height: 2em;
+  font-size: .8em;
+  border-bottom: #FFB400 0.1em solid;
+  margin-left: 1em;
+}
+
+.events h6 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: #F6511D;
+}
+
+.events h2 {
+  font-size: 1.5em;
+  color: #0D2C54;
+  font-family: "Spartan", sans-serif;
+  font-weight: 500;
+}
+
+.events h3 {
+  color: #009DE0;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  color: #009DE0;
 }
