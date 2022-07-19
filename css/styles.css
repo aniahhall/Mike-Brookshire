@@ -1,34 +1,19 @@
-.rotateimg180:active {
-  transform: rotate(90deg);
-}
-
-#navhead {
-  font-family: "Charis SIL", serif;
+body hr {
   color: #F6511D;
-  font-size: 2em;
-  text-decoration: none;
-}
-
-@media (min-width: 992px) {
-  #navhead {
-    font-size: 3.5em;
-  }
+  background-color: #F6511D;
+  height: 0.05em;
 }
 
 .navhead {
   text-align: center;
   margin-top: 2em;
-}
-
-#img-nav {
-  width: 3em;
-  margin: auto;
   margin-bottom: 2em;
 }
 
-hr {
-  color: #F6511D;
-  background-color: #F6511D;
+#img-nav {
+  width: 3.5em;
+  margin: auto auto 2em;
+  padding: 1em;
 }
 
 main {
@@ -62,7 +47,7 @@ main {
   color: #009DE0;
   font-family: "Spartan", sans-serif;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .main p {
@@ -93,8 +78,8 @@ main {
 .yellow-back a:hover {
   text-decoration: none;
   color: white;
-  padding: .3em;
-  border: .21em solid white;
+  padding: 0.3em;
+  border: 0.21em solid white;
 }
 
 nav {
@@ -114,7 +99,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0 0 1em 0em;
+  padding: 0 0 1em;
   text-align: center;
 }
 
@@ -128,7 +113,13 @@ nav ul li a {
   font-family: "Oxygen", sans-serif;
   font-weight: 700;
   color: #F6511D;
-  font-size: .8em;
+  font-size: 1em;
+}
+
+@media (min-width: 992px) {
+  nav ul li a {
+    font-size: 0.8em;
+  }
 }
 
 nav button {
@@ -154,7 +145,7 @@ figure {
   font-weight: 400;
   padding-bottom: 2em;
   line-height: 2em;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .home-reviews h6 {
@@ -172,21 +163,9 @@ footer {
 }
 
 footer img {
-  padding-top: 3em;
+  padding-top: 1em;
   padding-bottom: 1em;
-  width: 6.5%;
-}
-
-@media (min-width: 768px) {
-  footer img {
-    width: 4.5%;
-  }
-}
-
-@media (min-width: 992px) {
-  footer img {
-    width: 2.5%;
-  }
+  width: 2em;
 }
 
 .cwt-main h1 {
@@ -208,7 +187,7 @@ footer img {
   font-family: "Oxygen", sans-serif;
   font-weight: 700;
   line-height: 2em;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 @media (min-width: 992px) {
@@ -244,12 +223,12 @@ footer img {
   margin-bottom: 2em;
   padding-bottom: 2em;
   line-height: 2em;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 @media (min-width: 992px) {
   .cwt-inner li {
-    font-size: .9em;
+    font-size: 0.9em;
   }
 }
 
@@ -285,6 +264,8 @@ footer img {
   font-weight: 400;
   font-size: 1em;
   color: #0D2C54;
+  background-color: white;
+  line-height: 1.8em;
 }
 
 .reviews-main h1 {
@@ -305,11 +286,12 @@ footer img {
   font-family: "Spartan", sans-serif;
   color: #0D2C54;
   font-weight: 400;
-  border-bottom: #FFB400 0.1em solid;
+  border-bottom: #FFB400 0.2em solid;
   margin-bottom: 2em;
   padding-bottom: 2em;
   line-height: 2em;
-  font-size: .8em;
+  font-size: 0.8em;
+  margin-left: 1em;
 }
 
 .reviews h6 {
@@ -342,16 +324,20 @@ footer img {
   margin-bottom: 2em;
   padding-bottom: 2em;
   line-height: 2em;
-  font-size: .8em;
+  font-size: 0.8em;
   border-bottom: #FFB400 0.1em solid;
   margin-left: 1em;
+}
+
+.events li img {
+  margin-bottom: 1em;
 }
 
 .events h6 {
   font-family: "Spartan", sans-serif;
   font-weight: 500;
   font-size: 1em;
-  color: #F6511D;
+  color: #009DE0;
 }
 
 .events h2 {
