@@ -246,6 +246,16 @@ footer img {
   }
 }
 
+.am-main img {
+  width: 60%;
+}
+
+@media (min-width: 768px) {
+  .am-main img {
+    width: 96%;
+  }
+}
+
 #mike {
   font-family: "Oxygen", sans-serif;
   font-weight: 400;
@@ -256,6 +266,8 @@ footer img {
 @media (min-width: 992px) {
   #mike {
     font-size: 1.8em;
+    text-align: right;
+    padding-right: 0.4em;
   }
 }
 

@@ -251,7 +251,15 @@ footer {
       font-size: 1.4em;
     }
   }
+  img{
+    width:60%;
+    @media(min-width: $md){
+      width:96%;
+    }
+  }
 }
+
+
 
 #mike {
   font-family: $oxygen;
@@ -260,6 +268,8 @@ footer {
   font-size: 1.2em;
   @media(min-width: $lg) {
     font-size: 1.8em;
+    text-align: right;
+    padding-right: 0.4em
   }
 }
 
