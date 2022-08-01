@@ -4,6 +4,14 @@ body hr {
   height: 0.05em;
 }
 
+.nava {
+  font-family: "Charis SIL", serif;
+  color: #F6511D;
+  font-size: 2em;
+  text-decoration: none;
+  border-bottom: #F6511D 0.1em solid;
+}
+
 .navhead {
   text-align: center;
   margin-top: 2em;

@@ -17,7 +17,13 @@ body {
     height: 0.05em;
   }
 }
-
+.nava{
+  font-family: $chair;
+  color: $orange;
+  font-size: 2em;
+  text-decoration: none;
+  border-bottom: $orange .1em solid;
+}
 .navhead {
   text-align: center;
   margin-top: 2em;
