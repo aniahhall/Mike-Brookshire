@@ -6,9 +6,13 @@ body hr {
 
 .nava {
   font-family: "Charis SIL", serif;
-  color: #F6511D;
-  font-size: 2em;
+  color: white;
+  background-color: #F6511D;
+  font-size: 2.3em;
   text-decoration: none;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .navhead {

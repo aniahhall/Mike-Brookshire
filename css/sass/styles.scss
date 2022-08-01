@@ -19,10 +19,13 @@ body {
 }
 .nava{
   font-family: $chair;
-  color: $orange;
-  font-size: 2em;
+  color:white;
+  background-color: $orange;
+  font-size: 2.3em;
   text-decoration: none;
-
+  text-align: center;
+  padding-top: 1em;
+    padding-bottom: 1em;
 }
 .navhead {
   text-align: center;
