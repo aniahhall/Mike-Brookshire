@@ -22,11 +22,16 @@ body {
   color:white;
   background-color: $orange;
   font-size: 2.3em;
-  text-decoration: none;
   text-align: center;
   padding-top: 1em;
     padding-bottom: 1em;
+
 }
+#nava:hover{
+  text-decoration: none;
+  color:white;
+}
+
 .navhead {
   text-align: center;
   margin-top: 2em;
