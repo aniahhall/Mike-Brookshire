@@ -10,6 +10,13 @@ body hr {
   margin-bottom: 2em;
 }
 
+#nav {
+  font-family: "Charis SIL", serif;
+  color: #F6511D;
+  font-size: 2em;
+  text-decoration: none;
+}
+
 #img-nav {
   width: 3.5em;
   margin: auto auto 2em;
@@ -168,6 +175,10 @@ footer img {
   width: 2em;
 }
 
+.cwt-main {
+  margin-top: 1em;
+}
+
 .cwt-main h1 {
   font-family: "Oxygen", sans-serif;
   font-weight: 700;
@@ -182,10 +193,31 @@ footer img {
   }
 }
 
+.cwt-outer {
+  margin-bottom: 2em;
+}
+
+.cwt-outer h2 {
+  font-family: "Charis SIL", serif;
+  font-weight: 700;
+  color: #F6511D;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  height: 2em;
+  width: 15em;
+}
+
+.cwt-outer h3 {
+  font-family: "Spartan", sans-serif;
+  font-weight: 600;
+  color: #F6511D;
+  font-size: .7em;
+}
+
 .cwt-outer a {
   color: #0D2C54;
   font-family: "Oxygen", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 2em;
   font-size: 0.8em;
 }
@@ -197,13 +229,14 @@ footer img {
 }
 
 .cwt-outer a p {
-  border-left: #F6511D 0.6em solid;
+  border-left: #F6511D 0.1em solid;
   margin-bottom: 1em;
   padding-left: 1em;
+  padding-right: 1em;
 }
 
 .cwt-outer a p:hover {
-  border-left: #009DE0 0.6em solid;
+  border: #F6511D 0.1em solid;
 }
 
 .cwt-outer a:hover {
@@ -230,6 +263,10 @@ footer img {
   .cwt-inner li {
     font-size: 0.9em;
   }
+}
+
+.am-main {
+  margin-top: 1em;
 }
 
 .am-main h1 {
@@ -274,10 +311,14 @@ footer img {
 .am-para {
   font-family: "Spartan", sans-serif;
   font-weight: 400;
-  font-size: 1em;
+  font-size: .8em;
   color: #0D2C54;
   background-color: white;
   line-height: 1.8em;
+}
+
+.reviews-main {
+  margin-top: 1em;
 }
 
 .reviews-main h1 {
@@ -313,6 +354,10 @@ footer img {
   color: #009DE0;
   text-align: right;
   margin-right: 2.5em;
+}
+
+.events-main {
+  margin-top: 1em;
 }
 
 .events-main h1 {

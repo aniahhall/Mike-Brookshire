@@ -23,7 +23,13 @@ body {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+#nav{
+  font-family: $chair;
+ color: $orange;
+ font-size: 2em;
+ text-decoration: none;
 
+}
 #img-nav {
   width: 3.5em;
   margin: auto auto 2em;
@@ -181,6 +187,8 @@ footer {
 }
 // Conversation with trees
 .cwt-main {
+  margin-top:1em;
+
   h1 {
     font-family: $oxygen;
     font-weight: 700;
@@ -194,10 +202,27 @@ footer {
 }
 
 .cwt-outer {
+margin-bottom: 2em;
+  h2{
+    font-family: $chair;
+    font-weight:700;
+    color:$orange;
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    height: 2em;
+    width: 15em;
+  }
+  h3{
+    font-family: $spartan;
+    font-weight: 600;
+    color:$orange;
+    font-size: .7em;
+
+  }
   a {
     color: $dark;
     font-family: $oxygen;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 2em;
     font-size: 0.8em;
     @media(min-width: $lg) {
@@ -205,13 +230,15 @@ footer {
     }
 
     p {
-      border-left: $orange .6em solid;
+      border-left: $orange .1em solid;
       margin-bottom: 1em;
       padding-left: 1em;
+        padding-right: 1em;
     }
 
     p:hover {
-      border-left: $blue .6em solid;
+      border: $orange .1em solid;
+
     }
   }
 
@@ -241,6 +268,7 @@ footer {
 // Abou Mike
 
 .am-main {
+margin-top:1em;
   h1 {
     font-family: $oxygen;
     font-weight: 700;
@@ -276,12 +304,13 @@ footer {
 .am-para {
   font-family: $spartan;
   font-weight: 400;
-  font-size: 1em;
+  font-size: .8em;
   color: $dark;
   background-color: white;
   line-height: 1.8em;}
 // Reaviews
 .reviews-main {
+  margin-top:1em;
   h1 {
     font-family: $oxygen;
     font-weight: 700;
@@ -295,6 +324,7 @@ footer {
 }
 
 .reviews {
+
   li {
     font-family: $spartan;
     color: $dark;
@@ -318,6 +348,7 @@ footer {
 }
 // Events
 .events-main {
+  margin-top:1em;
   h1 {
     font-family: $oxygen;
     font-weight: 700;
