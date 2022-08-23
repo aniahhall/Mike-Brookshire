@@ -27,6 +27,14 @@ body {
     padding-bottom: 1em;
 
 }
+#front{
+  top:0;
+     left:0;
+     height:100%;
+     width:20%;
+     z-index:1001;
+position: relative;
+}
 #nava:hover{
   text-decoration: none;
   color:white;
@@ -49,9 +57,9 @@ body {
   margin: auto auto 2em;
   padding: 1em;
 }
-
+//
 main {
-  margin-top: 6em;
+  margin-top: 3em;
 }
 
 .main {
@@ -76,6 +84,7 @@ main {
     font-family: $oxygen;
     font-size: 2em;
     font-weight: 700;
+    margin-top:3em;
   }
 
   h3 {
@@ -93,12 +102,14 @@ main {
 
 .yellow-back {
   background-color: $yellow;
-  padding-top: 7em;
+  padding-top: 9em;
   padding-bottom: 7em;
+  margin-top: -5em;
+  height:35em;
 
   p {
     font-family: $oxygen;
-    font-size: 0.8em;
+    font-size: .8em;
     font-weight: 700;
     color: white;
   }

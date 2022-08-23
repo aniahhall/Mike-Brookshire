@@ -14,6 +14,15 @@ body hr {
   padding-bottom: 1em;
 }
 
+#front {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 20%;
+  z-index: 1001;
+  position: relative;
+}
+
 #nava:hover {
   text-decoration: none;
   color: white;
@@ -39,7 +48,7 @@ body hr {
 }
 
 main {
-  margin-top: 6em;
+  margin-top: 3em;
 }
 
 .main a {
@@ -63,6 +72,7 @@ main {
   font-family: "Oxygen", sans-serif;
   font-size: 2em;
   font-weight: 700;
+  margin-top: 3em;
 }
 
 .main h3 {
@@ -79,13 +89,15 @@ main {
 
 .yellow-back {
   background-color: #FFB400;
-  padding-top: 7em;
+  padding-top: 9em;
   padding-bottom: 7em;
+  margin-top: -5em;
+  height: 35em;
 }
 
 .yellow-back p {
   font-family: "Oxygen", sans-serif;
-  font-size: 0.8em;
+  font-size: .8em;
   font-weight: 700;
   color: white;
 }
