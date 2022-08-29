@@ -89,17 +89,37 @@ main {
 
 .yellow-back {
   background-color: #FFB400;
-  padding-top: 9em;
+  padding-top: 3em;
   padding-bottom: 7em;
-  margin-top: -5em;
-  height: 35em;
+  margin-top: 2em;
+  height: 41em;
+}
+
+@media (max-width: 768px) {
+  .yellow-back {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .yellow-back {
+    margin-top: -5em;
+    padding-top: 12em;
+  }
+}
+
+@media (max-width: 567px) {
+  .yellow-back {
+    height: 31em;
+  }
 }
 
 .yellow-back p {
   font-family: "Oxygen", sans-serif;
-  font-size: .8em;
+  font-size: .9em;
   font-weight: 700;
   color: white;
+  line-height: 2em;
 }
 
 .yellow-back a {
@@ -107,13 +127,31 @@ main {
   font-style: italic;
   color: white;
   font-size: 1em;
+  line-height: 2em;
+}
+
+@media (min-width: 1200px) {
+  .yellow-back a {
+    font-size: 1.2em;
+  }
 }
 
 .yellow-back a:hover {
   text-decoration: none;
   color: white;
   padding: 0.3em;
-  border: 0.21em solid white;
+  border-bottom: 0.21em solid white;
+}
+
+.backcover {
+  width: 23em;
+  margin-top: -4em;
+}
+
+@media (max-width: 1200px) {
+  .backcover {
+    margin-top: -1em;
+  }
 }
 
 nav {
@@ -173,6 +211,12 @@ figure {
   padding: 0;
 }
 
+@media (max-width: 992px) {
+  figure {
+    border-bottom: none;
+  }
+}
+
 .home-reviews li {
   font-family: "Spartan", sans-serif;
   color: #0D2C54;
@@ -218,6 +262,10 @@ footer img {
   .cwt-main h1 {
     font-size: 1.4em;
   }
+}
+
+#revfoot {
+  margin-top: 4em;
 }
 
 .cwt-outer {
