@@ -105,24 +105,30 @@ main {
   padding-top: 3em;
   padding-bottom: 7em;
   margin-top:2em;
+  margin-bottom:1.2em;
   height:41em;
-  @media(max-width: $md){
+  @media(max-width: $lg){
     text-align: center;
+    height:20em;
   }
 
   @media(min-width: $xl){
     margin-top: -5em;
 padding-top: 12em;
+  height:41em;
   }
-@media(max-width: $sm){
-  height: 31em;}
 
+@media(max-width: $sm){
+  height: 25em;}
+  @media(max-width: 280px){
+    height: 30em;}
   p {
     font-family: $oxygen;
     font-size: .9em;
     font-weight: 700;
     color: white;
     line-height: 2em;
+    padding-top:4em;
 
 
   }
@@ -259,6 +265,32 @@ footer {
       font-size: 1.4em;
     }
   }
+
+  h4{
+    color:white;
+background-color: $blue;
+padding:.5em;
+text-align: center;
+font-family: $oxygen;
+font-weight:600;
+}
+
+}
+.cwt-asd{
+
+  margin-top:1em;
+  p{
+    margin-top: 1.5em;
+        font-size: .8em;
+        font-family: "Spartan";
+        font-weight: 500;
+        line-height: 2.2em;
+
+    em{
+      font-weight: 600;
+    }
+  }
+
 }
 #revfoot{
   margin-top:4em;
