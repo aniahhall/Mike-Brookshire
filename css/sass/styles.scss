@@ -61,7 +61,10 @@ position: relative;
 main {
   margin-top: 3em;
 }
-
+// span {
+//   content: "\002B";
+//   color:white;
+// }
 .main {
   a {
     color: white;
@@ -70,8 +73,15 @@ main {
     font-style: $chair;
     font-weight: 700;
     font-size: 1em;
+    @media(max-width: $sm){
+    float: left;
+    margin-bottom: 0.5em;
   }
-
+  }
+#zon{
+  padding: 0.5em 1.5em;
+  margin-right: 0.25em;
+}
   a:hover {
     background-color: white;
     text-decoration: none;
@@ -102,26 +112,34 @@ main {
 
 .yellow-back {
   background-color: $yellow;
-  padding-top: 3em;
+
   padding-bottom: 7em;
   margin-top:2em;
   margin-bottom:1.2em;
   height:41em;
   @media(max-width: $lg){
-    text-align: center;
-    height:20em;
+    text-align: left;
+    height:30em;
   }
+
 
   @media(min-width: $xl){
     margin-top: -5em;
 padding-top: 12em;
   height:41em;
   }
-
+@media(max-width: $md){
+  text-align: center;
+  height:20em;
+}
 @media(max-width: $sm){
-  height: 25em;}
+  height: 25em;
+  padding-top: 0em;
+text-align:center;}
+
   @media(max-width: 280px){
-    height: 30em;}
+    height: 30em;
+  padding-top: 0em;}
   p {
     font-family: $oxygen;
     font-size: .9em;
@@ -161,6 +179,12 @@ padding-top: 12em;
     margin-top:-1em;
 
   }
+
+  @media(max-width: $lg){
+    margin-top: 1em;
+    position: absolute;
+    padding-right: 2em;
+}
 }
 nav {
   margin: auto;
@@ -255,6 +279,24 @@ footer {
   margin-top:1em;
 
 
+
+
+
+i {
+  color:$orange;
+  text-align: center;
+display: block;
+margin-bottom: 1em;
+}
+
+i:hover{
+
+}
+
+
+
+
+
   h1 {
     font-family: $oxygen;
     font-weight: 700;
@@ -330,10 +372,9 @@ margin-bottom: 2em;
         padding-right: 1em;
     }
 
-    p:hover {
-      border: $orange .1em solid;
 
-    }
+
+
   }
 
   a:hover {
