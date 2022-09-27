@@ -68,8 +68,11 @@ main {
 }
 
 .main #zon {
-  padding: 0.5em 1.5em;
-  margin-left: 0.25em;
+  padding: 0.5em 1.55em;
+}
+
+.main #baby {
+  margin-right: 0.25em;
 }
 
 .main a:hover {
